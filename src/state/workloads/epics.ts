@@ -1,5 +1,5 @@
 import { combineEpics, Epic } from "redux-observable";
-import { filter, map, mergeMap, takeUntil, tap } from "rxjs/operators";
+import { filter, map, mergeMap } from "rxjs/operators";
 import { isActionOf } from "typesafe-actions";
 
 import { RootAction, RootState } from "../reducer";
