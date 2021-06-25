@@ -1,0 +1,27 @@
+.container {
+  width: 75%;
+  margin: 50px auto;
+}
+.header {
+  color: #5200f5;
+}
+.workloadBox {
+  display: flex;
+  gap: 10%;
+}
+
+.workloadsContainer {
+  width: 50%;
+  border: 3px solid #5200f5;
+  padding: 2% 5%;
+  margin: 2% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .workloadBox {
+    flex-direction: column-reverse;
+  }
+  .workloadsContainer{
+    width: 100%;
+  }
+}
